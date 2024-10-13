@@ -651,3 +651,9 @@ a {
     height: 6rem;
   }
 }
+
+@media screen and (max-height: 900px) {
+  #services.section-grid, #testimonals.section-grid, #contact.section-grid {
+    grid-template-rows: 1vh 1fr 1vh;
+  }
+}
