@@ -4,7 +4,7 @@
 
 html,
 body {
-  height: 100vh;
+  height: 100dvh;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -650,6 +650,11 @@ a {
 
   .contact-container {
     justify-content: center;
+  }
+
+  .image-container {
+    width: 150px;
+    height: 150px;
   }
 } 
 
