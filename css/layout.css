@@ -1,10 +1,9 @@
 /** Bootstrap **/
 * {
     box-sizing: border-box;
-  }
-  
-  html,
-  body {
+}
+
+body {
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
@@ -195,13 +194,13 @@ a {
     text-decoration: none;
 }
 
-.link > a {
+.link>a {
     color: #000;
     position: relative;
     padding-bottom: 6px;
 }
 
-.link > a::before {
+.link>a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -215,11 +214,11 @@ a {
     transition: transform 0.2s ease-in;
 }
 
-.link > a:hover {
+.link>a:hover {
     color: #F45D30;
 }
 
-.link > a:hover::before {
+.link>a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }

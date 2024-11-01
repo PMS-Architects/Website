@@ -175,10 +175,12 @@ function openModal(src, caption) {
     modal.style.display = "block";
     modalImg.src = src;
     captionText.innerHTML = caption;
+    document.body.classList.add('modal-open')
 }
 
 function closeModal() {
     modal.style.display = "none";
+    document.body.classList.remove('modal-open')
 }
 
 // Close modal when clicking outside
