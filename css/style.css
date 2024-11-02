@@ -243,7 +243,7 @@ html {
 }
 
 .contact-floater {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 50%;
 }
@@ -370,12 +370,12 @@ html {
     padding: 0rem;
   }
 
-  .width-48p {
-    width: 32px
+  #homepage.section-grid {
+    grid-template-rows: 10vh auto;
   }
 
-  .hero-content {
-    padding: 1rem;
+  .width-48p {
+    width: 32px
   }
 
   .welcome-container {
@@ -399,6 +399,15 @@ html {
     width: 150px;
     height: 150px;
   }
+
+  
+
+  .about-container {
+    padding: 1rem;
+    margin: 0 8px;
+  }
+
+  
 } 
 
 @media screen and (max-width: 768px) {
@@ -432,10 +441,18 @@ html {
     width: 8rem;
     height: 6rem;
   }
+
+  .contact-floater {
+    bottom: 80%;
+  }
+  
+  .floater-container {
+    flex-direction: row;
+  }
 }
 
 @media screen and (max-height: 900px) {
   #services.section-grid, #testimonals.section-grid, #contact.section-grid {
-    grid-template-rows: 1vh 1fr 1vh;
+    grid-template-rows: 4vh 1fr 4vh;
   }
 }

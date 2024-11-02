@@ -1,8 +1,8 @@
 .header-section {
     background-image: url('../images/page-backgrounds/about-us-page-background.jpg');
-    background-size: cover;
     background-color: rgba(219, 219, 219, 0.4);
     background-blend-mode: lighten;
+    background-repeat: round;
 }
 
 section {
@@ -33,8 +33,9 @@ section {
 }
 
 .hero-content {
-    margin: auto;
-    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-container {

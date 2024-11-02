@@ -5,7 +5,7 @@
   justify-content: space-between;
   background-color: #fff;
   border-radius: 16px;
-  padding: 0 1rem;
+  padding-right: 1rem;
   max-height: 94px;
   position: relative;
 }
@@ -104,12 +104,13 @@
 
   .menu {
     position: absolute;
-    top: 80px;
+    top: 82px;
     left: 0;
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
+    z-index: 2;
   }
 
   #menu-toggle .menu li {
