@@ -257,6 +257,10 @@ html {
   border-radius: 0.5rem;
 }
 
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+}
 
 .color {
   color: #F45D30;
@@ -381,8 +385,17 @@ html {
   .welcome-container {
     padding: 1rem;
     margin: 0 auto;
+    text-align: center;
   }
   
+  .hero-greeting {
+    font-size: 1.5rem;
+  }
+  
+  .hero-heading {
+    font-size: 3rem;
+  }
+
   .hide-md {
     display: none;
   }
@@ -392,7 +405,7 @@ html {
   }
 
   .contact-container {
-    justify-content: center;
+    font-size: 1rem;
   }
 
   .image-container {
@@ -401,13 +414,27 @@ html {
   }
 
   
-
-  .about-container {
+  .base-container, .about-container {
     padding: 1rem;
     margin: 0 8px;
   }
 
-  
+  .section-sub-header {
+    font-size: 20px;
+  }
+
+  .contact-content {
+    line-height: 22px;
+  }
+
+  .contact-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pms-map iframe {
+    display: none;
+  }
 } 
 
 @media screen and (max-width: 768px) {
@@ -443,7 +470,7 @@ html {
   }
 
   .contact-floater {
-    bottom: 80%;
+    bottom: 85%;
   }
   
   .floater-container {
@@ -452,7 +479,12 @@ html {
 }
 
 @media screen and (max-height: 900px) {
-  #services.section-grid, #testimonals.section-grid, #contact.section-grid {
+  #services.section-grid, #testimonals.section-grid {
     grid-template-rows: 4vh 1fr 4vh;
+  }
+
+  #contact.section-grid {
+    grid-template-rows: 3vh auto 8vh;
+    gap: 1rem;
   }
 }
