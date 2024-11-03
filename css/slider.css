@@ -1,5 +1,7 @@
 .slider-container {
     max-width: 1068px;
+    width: 86vw;
+    margin: auto;
 }
 
 .top-slider {
@@ -92,8 +94,13 @@
     color: #0098DA;
 }
 
-.slider-arrow.left { left: 20px; }
-.slider-arrow.right { right: 20px; }
+.slider-arrow.left {
+    left: 20px;
+}
+
+.slider-arrow.right {
+    right: 20px;
+}
 
 .slider-nav {
     position: absolute;
@@ -127,14 +134,30 @@
 
 @media (max-width: 768px) {
     .top-slider {
-        height: 300px;
+        height: 370px;
     }
 
     .slide h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .slide p {
-        font-size: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .slider-dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .slider-arrow {
+        width: 25px;
+        height: 25px;
+        font-size: 0.75rem;
+    }
+
+    .slider-content {
+        max-width: 300px;
+        padding: 0.75rem;
     }
 }
