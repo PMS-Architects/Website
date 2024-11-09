@@ -165,7 +165,7 @@ html {
 }
 
 .caption-text {
-  font-size: 18px;
+  font-size: 0.75rem;
   margin: 0;
 }
 
@@ -413,8 +413,8 @@ html {
   }
 
   .image-container {
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
   }
 
   
@@ -430,7 +430,7 @@ html {
   .contact-flex {
     flex-direction: row;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .contact-flex .section-sub-header {
@@ -491,13 +491,13 @@ html {
   }
 }
 
-@media screen and (max-height: 900px) {
+@media screen and (max-height: 1200px) {
   #services.section-grid, #testimonals.section-grid {
     grid-template-rows: 4vh 1fr 4vh;
   }
 
   #contact.section-grid {
-    grid-template-rows: 3vh auto 8vh;
+    grid-template-rows: 2vh auto 10vh;
     gap: 1rem;
   }
 }
