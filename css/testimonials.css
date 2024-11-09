@@ -2,7 +2,6 @@
     background-image: url('../images/page-backgrounds/testimonials-page-background.jpg');
     background-color: rgba(219, 219, 219, 0.4);
     background-blend-mode: lighten;
-    background-repeat: round;
 }
 
 section {
@@ -159,6 +158,10 @@ body.modal-open {
 
     section {
         padding: 20px;
+    }
+
+    .hero-heading {
+        font-size: 3rem;
     }
 }
 
