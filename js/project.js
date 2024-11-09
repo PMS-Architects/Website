@@ -1,66 +1,6 @@
 
 const projects = [
     {
-        name: "ARSHAD_RESIDENCE",
-        images: [
-            "01.jpg",
-            "02.jpg",
-            "03.jpg",
-            "04.jpg",
-            "05.jpg",
-            "06.jpg",
-            "07.jpg",
-            "08.jpg",
-            "09.jpg",
-            "10.jpg",
-            "11.jpg",
-            "12.jpg",
-            "13.jpg",
-            "14.jpg",
-            "15.jpg",
-            "16.jpg",
-            "17.jpg",
-            "18.jpg",
-            "19.jpg"
-        ]
-    },
-    {
-        name: "KUMAR_RESIDENCE",
-        images: [
-            "01.jpg",
-            "02.jpg",
-            "03.jpg",
-            "04.jpg",
-            "05.jpg",
-            "06.jpg",
-            "07.jpg",
-            "08.jpg",
-            "09.jpg",
-            "10.jpg",
-            "11.jpg",
-            "12.jpg",
-            "13.jpg",
-            "14.jpg",
-            "15.jpg"
-        ]
-    },
-    {
-        name: "KUMAR_TRADING_COMPANY",
-        images: [
-            "final_1 - Photo.jpg",
-            "final_2 - Photo.jpg",
-            "final_3 - Photo.jpg",
-            "final_4 - Photo.jpg",
-            "final_5 - Photo.jpg",
-            "final_6 - Photo.jpg",
-            "final_7 - Photo.jpg",
-            "final_8 - Photo.jpg",
-            "final_9 - Photo.jpg",
-            "final_10 - Photo.jpg",
-            "final_11 - Photo.jpg"
-        ]
-    },
-    {
         name: "NAIDU_HALL",
         images: [
             "DSC01824.JPG",
@@ -131,6 +71,66 @@ const projects = [
             "DSC03842.JPG",
             "DSC03846.JPG",
             "DSC03849.JPG",
+        ]
+    },
+    {
+        name: "ARSHAD_RESIDENCE",
+        images: [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg",
+            "10.jpg",
+            "11.jpg",
+            "12.jpg",
+            "13.jpg",
+            "14.jpg",
+            "15.jpg",
+            "16.jpg",
+            "17.jpg",
+            "18.jpg",
+            "19.jpg"
+        ]
+    },
+    {
+        name: "KUMAR_RESIDENCE",
+        images: [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg",
+            "10.jpg",
+            "11.jpg",
+            "12.jpg",
+            "13.jpg",
+            "14.jpg",
+            "15.jpg"
+        ]
+    },
+    {
+        name: "KUMAR_TRADING_COMPANY",
+        images: [
+            "final_1 - Photo.jpg",
+            "final_2 - Photo.jpg",
+            "final_3 - Photo.jpg",
+            "final_4 - Photo.jpg",
+            "final_5 - Photo.jpg",
+            "final_6 - Photo.jpg",
+            "final_7 - Photo.jpg",
+            "final_8 - Photo.jpg",
+            "final_9 - Photo.jpg",
+            "final_10 - Photo.jpg",
+            "final_11 - Photo.jpg"
         ]
     }
 ];

@@ -136,8 +136,8 @@ html {
 
 .image-container {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 230px;
+  height: 230px;
   overflow: hidden; /* Ensures the zoomed image stays within bounds */
   margin: 1rem;
 }
@@ -271,6 +271,10 @@ html {
   /** PMS -Primary **/
   color: #0098DA;
   /** PMS - Secondary **/
+}
+
+.footer {
+  text-align: center;
 }
 
 .scroll {
@@ -415,9 +419,9 @@ html {
   .image-container {
     width: 135px;
     height: 135px;
+    margin: 0.25rem;
   }
 
-  
   .base-container, .about-container {
     padding: 1rem;
     margin: 0 8px;
@@ -483,12 +487,9 @@ html {
   }
 
   .contact-floater {
-    bottom: 85%;
+    bottom: 81%;
   }
   
-  .floater-container {
-    flex-direction: row;
-  }
 }
 
 @media screen and (max-height: 1200px) {
