@@ -2,71 +2,420 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="icons/Logo.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <title>Coming Soon...</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="shortcut icon" href="icons/Logo.ico">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <title>PMS ARCHITECTS | Design Future</title>
 </head>
 
-<body class="light">
+<body class="light" id="theme">
+  <!-- Each section of webpage is a wrapper section. -->
+  <header class="wrapper header-section">
 
-    <section id="content" class="wrapper boundary">
+    <div id="homepage" class="boundary section-grid">
 
-        <div id="under-construction" class="width-100">
+      <div class="navbar">
+        <div class="pms-logo">
+          <img class="width-100" src="images/Logo.png" alt="logo">
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li class="link">
+            <a href="#homepage">Home</a>
+          </li>
+          <li class="link">
+            <a href="#about">About Us</a>
+          </li>
+          <li class="link">
+            <a href="#services">Our Services</a>
+          </li>
+          <li class="link">
+            <a href="#testimonals">Our Projects</a>
+          </li>
+          <li class="link">
+            <a href="#contact">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="lg-menu">
+          <li class="link">
+            <a href="#homepage">Home</a>
+          </li>
+          <li class="link">
+            <a href="#about">About Us</a>
+          </li>
+          <li class="link">
+            <a href="#services">Our Services</a>
+          </li>
+          <li class="link">
+            <a href="#testimonals">Our Projects</a>
+          </li>
+          <li class="link">
+            <a href="#contact">Contact Us</a>
+          </li>
+        </ul>
 
-            <div class="align-center">
-                <div class="logo-image animate-zoom">
-                    <img class="width-100" src="images/Logo.png" alt="logo">
-                </div>
-            </div>
-
-            <div class="under_construction-container padding-1">
-                <div class="flex-center flex-wrap">
 
 
-                    <div class="flex-col-center">
-                        <div class="hero-image animate-zoom animate-delay_50 ">
-                            <img class="width-100" src="images/crane_loader.gif" alt="logo">
-                        </div>
+      </div>
 
-                        <div class="message-container align-center padding-1 animate animate-delay_1 ">
-                            <p class="primary">Website Construction Is In Progress 🚧</p>
-                            <p class="secondary">We are working on building awesome website</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="align-center padding-1 animate animate-delay_2 ">
-                <div class="margin-1">
-                    <span>Stay in Touch: </span>
-                    <a class="margin-25p" href="https://x.com/pmsarchitects" target="_blank">
-                        <img class="width-24p" src="icons/pms-social-icons/x.svg" alt="X.com">
-                    </a>
-                    <a class="margin-25p" href="https://www.instagram.com/pmsarchitects" target="_blank">
-                        <img class="width-26p" src="icons/pms-social-icons/instagram.svg" alt="Instagram">
-                    </a>
-                    <a class="margin-25p" href="https://www.linkedin.com/company/pmsarchitects/" target="_blank">
-                        <img class="width-26p" src="icons/pms-social-icons/linkedin.svg" alt="LinkedIn">
-                    </a>
-                    <a class="margin-25p" href="https://www.youtube.com/@PMSARCHITECTS" target="_blank">
-                        <img class="width-26p" src="icons/pms-social-icons/youtube.svg" alt="Youtube">
-                    </a>
-                </div>
-                <div>
-                    <span>Developing with ❤️ by PMS Architects 👷🏻‍♂️</span>
-                </div>
-            </div>
+      <div id="hero-container" class="hero-content">
+        <div class="welcome-container">
+          <h3 class="hero-greeting">Welcome To 👋 </h3>
+          <h1 class="hero-heading">
+            PMS Architects
+          </h1>
+          <h2 class="hero-title">
+            We Design Future
+            <br />
+            That Inspires You
+          </h2>
         </div>
 
+      </div>
+
+      <div class="container flex-center">
+        <div class="flex-col-center">
+          <div class="padding-50 color-white">
+            Scroll For More
+          </div>
+          <div class="scroll"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="wrapper about-section">
+      <div id="about" class="boundary section-grid no-gap">
+        <div></div>
+
+        <div id="hero-container" class="about-container">
+          <header>
+            <h3 class="section-header secondary">ABOUT US</h3>
+            <h1 class="section-header primary">Who are we</h1>
+          </header>
+
+          <div class="flex-space-between">
+            <div class="max-width-600">
+              <p class="about-content">
+                At <span class="primary-24">PMS Architects</span>, we believe that architecture is more than just
+                buildings,
+                it's about creating spaces that inspire, connect, and enrich lives.
+                Our vision is to design environments that harmonize with their surroundings and
+                resonate with the communities they serve. Our mission is to deliver innovative,
+                sustainable, and aesthetically pleasing designs that reflect our clients' values
+                and aspirations. Our motto, <span class="secondary">Design Future</span>, encapsulates our commitment to
+                forward-thinking design that anticipates and embraces the needs of tomorrow.
+              </p>
+              <div class="link">
+                <a href="/pages/about.html">LEARN MORE </a>
+              </div>
+
+            </div>
+
+            <div class="hero-image hide-md">
+              <img class="width-100" src="images/we/about-us.jpg" alt="logo">
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <div></div>
+
+      </div>
     </section>
 
+    <section class="wrapper services-section">
+      <div id="services" class="boundary section-grid no-gap no-headers">
+        <div class="container flex-center"></div>
+
+        <div id="hero-container" class="about-container">
+          <header>
+            <h3 class="section-header secondary">OUR SERVICES</h3>
+            <h1 class="section-header primary">What we Provide</h1>
+          </header>
+
+          <p>At PMS Architects, we offer a comprehensive range of architectural and structural services, including:</p>
+
+          <div class="slider-container">
+            <div class="top-slider">
+              <div class="slides">
+                <div class="slide r-slide">
+                  <div class="slider-content">
+                    <h2>Residential Design </h2>
+                    <p>Creating personalized living spaces that reflect individual lifestyles and foster a sense of
+                      home. We focus on integrating natural light, optimizing layouts, and enhancing outdoor
+                      connections.</p>
+                  </div>
+                </div>
+                <div class="slide c-slide">
+                  <div class="slider-content">
+                    <h2>Commercial Architecture </h2>
+                    <p>Designing dynamic work environments that enhance productivity and foster collaboration. We
+                      understand the importance of brand identity and functionality, tailoring each project to meet
+                      specific business needs.</p>
+                  </div>
+                </div>
+                <div class="slide re-slide">
+                  <div class="slider-content">
+                    <h2>Retail Architecture </h2>
+                    <p>Specializing in creating engaging retail environments that enhance customer experience and drive
+                      sales.</p>
+                  </div>
+                </div>
+                <div class="slide s-slide">
+                  <div class="slider-content">
+                    <h2>Sustainable Design </h2>
+                    <p>Implementing environmentally responsible practices and materials to create buildings that
+                      minimize ecological impact. Our designs prioritize energy efficiency and sustainability,
+                      contributing to a healthier planet.</p>
+                  </div>
+                </div>
+                <div class="slide u-slide">
+                  <div class="slider-content">
+                    <h2>Urban Planning </h2>
+                    <p>Developing community-focused solutions that promote connectivity, sustainability, and livability.
+                      We believe in designing urban spaces that nurture social interaction and enhance quality of life.
+                    </p>
+                  </div>
+                </div>
+                <div class="slide i-slide">
+                  <div class="slider-content">
+                    <h2>Interior Design </h2>
+                    <p>Crafting interior spaces that are not only beautiful but also enhance the overall user
+                      experience. Our approach combines aesthetics with functionality, creating cohesive environments
+                      that resonate with their occupants.</p>
+                  </div>
+                </div>
+                <div class="slide s-slide">
+                  <div class="slider-content">
+                    <h2>Structural Engineering </h2>
+                    <p>Our structural services are integral to our design process. We provide comprehensive structural
+                      engineering solutions, ensuring that each building is not only visually striking but also safe,
+                      durable, and efficient.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="slider-arrow left" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="slider-arrow right" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+              <div class="slider-nav"></div>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+            <script src="js/slider.js"></script>
+          </div>
+
+          <div class="link margin-tb-1">
+            <a href="/pages/services.html">LEARN MORE </a>
+          </div>
+        </div>
+
+        <div class="container flex-center"> </div>
+
+      </div>
+    </section>
+
+    <section class="wrapper client-section">
+      <div id="testimonals" class="boundary section-grid no-gap no-headers">
+        <div></div>
+
+        <div id="hero-container" class="about-container">
+          <header>
+            <h3 class="section-header secondary">OUR CLIENTS</h3>
+            <h1 class="section-header primary">Our Achievements</h1>
+          </header>
+
+          <p>Some of our Clients </p>
+
+          <div class="flex-center flex-wrap">
+
+            <div class="image-container">
+              <img src="images/projects/SILVER_LADY/DSC03833.JPG" alt="Silver Lady" class="image">
+              <div class="caption-overlay">
+                <p class="caption-text">Sliver Lady</p>
+              </div>
+            </div>
+
+            <div class="image-container">
+              <img src="images/projects/NAIDU_HALL/DSC01957.JPG" alt="Naidu Hall" class="image">
+              <div class="caption-overlay">
+                <p class="caption-text">Naidu Hall</p>
+              </div>
+            </div>
+
+            <div class="image-container">
+              <img src="images/projects/KUMAR_TRADING_COMPANY/final_3 - Photo.jpg" alt="Kumar Trading Company"
+                class="image">
+              <div class="caption-overlay">
+                <p class="caption-text">Kumar Trading Company</p>
+              </div>
+            </div>
+
+            <div class="image-container">
+              <img src="images/projects/ARSHAD_RESIDENCE/03.jpg" alt="Arshad Residence" class="image">
+              <div class="caption-overlay">
+                <p class="caption-text">Arshad Residence</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="link margin-tb-1">
+            <a href="/pages/testimonials.html">CLICK HERE FOR MORE </a>
+          </div>
+
+
+        </div>
+
+        <div> </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="wrapper contact-section">
+    <div id="contact" class="boundary section-grid no-gap">
+      <div></div>
+
+      <div id="hero-container" class="base-container">
+        <header>
+          <h3 class="section-header secondary">CONTACT US</h3>
+        </header>
+
+        <div class="contact-container">
+          <div class="max-width-600">
+            <h2 class="section-sub-header">Get in Touch with Us</h2>
+            <p class="contact-content">
+              We invite you to join us on this exciting journey of creating remarkable spaces. Whether you are looking
+              to build your dream home, redesign your workspace, or undertake a large-scale development project,
+              <span class="primary-24">PMS Architects</span> is here to help. Let's work together to bring your vision
+              to life and
+              <span class="secondary">Design Future</span> together
+            </p>
+
+            <div class="contact-flex">
+              <div>
+                <h2 class="section-sub-header">Phone</h2>
+                <div class="margin-tb-1">
+                  <img class="width-24p" src="icons/branded-icons/phone.svg" alt="Call Us At">
+
+                  <a href="tel:+91-7904343370" target="_blank" class="v_align-top">
+                    +91-7904343370
+                  </a>
+                  <a href="tel:+91-9789844703" target="_blank" class="v_align-top border-left">
+                    +91-9789844703
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <h2 class="section-sub-header">Email</h2>
+                <div class="margin-tb-1">
+                  <a href="mailto:contact@pmsarchitects.com" target="_blank">
+                    <img class="width-24p" src="icons/branded-icons/mail.svg" alt="Call Us At">
+                    <span class="v_align-super">contact@pmsarchitects.com</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div>
+              <h2 class="section-sub-header">Let's Connect</h2>
+
+              <div class="margin-tb-1">
+                <a class="margin-25p" href="https://x.com/pmsarchitects" target="_blank">
+                  <img class="width-32p" src="icons/branded-icons/x.svg" alt="X.com">
+                </a>
+                <a class="margin-25p" href="https://www.instagram.com/pmsarchitects" target="_blank">
+                  <img class="width-32p" src="icons/branded-icons/instagram.svg" alt="Instagram">
+                </a>
+                <a class="margin-25p" href="https://www.linkedin.com/company/pmsarchitects/" target="_blank">
+                  <img class="width-32p" src="icons/branded-icons/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a class="margin-25p" href="https://in.pinterest.com/pmsarchitects24/" target="_blank">
+                  <img class="width-32p" src="icons/branded-icons/pinterest.svg" alt="Pinterest">
+                </a>
+                <a class="margin-25p" href="https://www.youtube.com/@PMSARCHITECTS" target="_blank">
+                  <img class="width-32p" src="icons/branded-icons/youtube.svg" alt="Youtube">
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div>
+            <h2 class="section-sub-header">Address</h2>
+            <p class="contact-content">
+              No.16, Kasturi Industrial Estate, Ayanambakkam,
+              <br />
+              Chennai, Tamil Nadu 600095
+            </p>
+            <div class="pms-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d64003.81456294225!2d80.1298835103171!3d13.07638293858916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xad28c4445763cbab%3A0x998c22e4c8531de2!2sPMS%20ARCHITECTS!5e0!3m2!1sen!2sin!4v1728733487218!5m2!1sen!2sin"
+                width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="map-md margin-tb-1">
+                <a href="https://maps.app.goo.gl/T8GCRXBLmSypUjgVA" target="_blank">
+                  <img class="width-24p" src="icons/branded-icons/g-maps.svg" alt="Call Us At">
+                  <span class="v_align-super">Location</span>
+                </a>
+              </div>
+            </div>
+            <div class="padding-tb-15p">
+              <a class="primary-button" href="https://forms.gle/qkRdQj1QW8saw1im9" target="_blank">
+                SEND ENQUIRY
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>Copyright
+          <script>document.write(new Date().getFullYear());</script> © PMS Architects
+        </div>
+        <div>Designed & Developed with ❤️ by PMS Architects 👷🏻‍♂️</div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="contact-floater">
+    <div class="floater-container">
+      <a class="margin-25p width-48p" href="https://wa.me/+917904343370" target="_blank">
+        <img class="img-100" src="icons/branded-icons/whatsapp.svg" alt="Contact Us at Whatsapp">
+      </a>
+      <a class="margin-25p width-48p" href="tel:+91-7904343370" target="_blank">
+        <img class="img-100" src="icons/branded-icons/contact-phone.svg" alt="Contact Us at Whatsapp">
+      </a>
+    </div>
+
+  </div>
 </body>
 
 </html>

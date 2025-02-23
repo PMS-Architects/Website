@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 .header-section {
     background-image: url('../images/page-backgrounds/service-page-background.jpg');
     background-color: rgba(219, 219, 219, 0.4);
@@ -48,6 +50,8 @@ h1,
 h2,
 h3 {
     color: #F45D30;
+    font-family: "Ubuntu", serif;
+    font-style: normal;
 }
 
 h1 {
@@ -61,7 +65,7 @@ h2 {
 .hero-heading {
     font-size: 4rem;
     margin: 0;
-    font-family: "PT Mono", monospace;
+    font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -83,6 +87,14 @@ p {
     margin-bottom: 20px;
     font-weight: lighter;
     text-align: justify;
+}
+
+.services-list li {
+    font-weight: 300;
+}
+
+.services-list li strong{
+    font-weight: 500;
 }
 
 strong {

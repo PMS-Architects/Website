@@ -17,6 +17,10 @@ body {
     vertical-align: super;
 }
 
+.v_align-top {
+    vertical-align: top;
+}
+
 .padding-1 {
     padding: 1em;
 }
@@ -230,5 +234,13 @@ a {
 @media only screen and (max-width: 992px) {
     .width-48p {
       width: 32px
+    }
+
+    .width-32p {
+        width: 24px;
+    }
+
+    .padding-tb-15p {
+        padding: 0.75rem 0;
     }
   } 
