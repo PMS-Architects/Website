@@ -81,7 +81,10 @@
     </header>
 
     <section>
-        <div id="projects"></div>
+        <h2 class="section-header">Some of Our Clients</h2>
+
+        <!-- Display All Projects Main Image here. Upon clicking on it, navigate to next page. -->
+        <div id="all-projects"></div> 
 
         <!-- Modal for Image Preview -->
         <div id="image-modal" class="modal">
@@ -91,16 +94,18 @@
                 <div class="modal-caption" id="caption"></div>
                 <img class="img-100" id="modal-image" />
             </div>
-            
+
         </div>
 
-        <script src="../js/project.js"></script>
+        <script src="../js/all-projects.js"></script>
     </section>
 
     <footer>
         <div class="flex-center">
             <div class="flex-col-center">
-                <div>Copyright <script>document.write(new Date().getFullYear());</script> © PMS Architects</div>
+                <div>Copyright
+                    <script>document.write(new Date().getFullYear());</script> © PMS Architects
+                </div>
                 <div>Designed & Developed with ❤️ by PMS Architects 👷🏻‍♂️</div>
             </div>
             <div id="caption"></div>
