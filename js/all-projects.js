@@ -17,7 +17,7 @@ const allProjects = [
     },
     {
         name: "KUMAR_TRADING_COMPANY",
-        image: "final_1 - Photo.jpg"
+        image: "final_1_Photo.jpg"
     }
 ]
 
