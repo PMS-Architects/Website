@@ -166,7 +166,7 @@ body {
 }
 
 .margin-1 {
-    margin: 1em;
+    margin: 1rem;
 }
 
 .margin-tb-1 {
@@ -229,6 +229,10 @@ a {
 .link>a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 992px) {
