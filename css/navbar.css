@@ -15,23 +15,15 @@
   height: 6rem;
 }
 
-.lg-menu, .menu {
+.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.lg-menu {
+.menu {
   display: flex;
   flex-direction: row;
-}
-
-.menu {
-  display: none;
-}
-
-.lg-menu > li {
-  margin: 0 1rem;
 }
 
 .menu > li {
@@ -94,10 +86,6 @@
     max-height: 120px;
   }
 
-  .lg-menu {
-    display: none;
-  }
-
   .menu-button-container {
     display: flex;
   }
@@ -111,6 +99,7 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
+    display: none;
   }
 
   #menu-toggle .menu li {

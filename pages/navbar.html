@@ -6,15 +6,17 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="../icons/Logo.ico">
-    <link rel="stylesheet" href="../css/testimonials.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/project.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Our Projects - PMS Architects</title>
+    <title>Loading</title>
+
 </head>
 
 <body>
@@ -40,21 +42,36 @@
                         <a href="/pages/services.html">Our Services</a>
                     </li>
                     <li class="link">
-                        <a href="/pages/testimonials.html#">Our Projects</a>
+                        <a href="/pages/testimonials.html">Our Projects</a>
                     </li>
                     <li class="link">
                         <a href="/index.html#contact">Contact Us</a>
                     </li>
                 </ul>
+                <!-- <ul class="lg-menu">
+                    <li class="link">
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li class="link">
+                        <a href="/pages/about.html">About Us</a>
+                    </li>
+                    <li class="link">
+                        <a href="/pages/services.html">Our Services</a>
+                    </li>
+                    <li class="link">
+                        <a href="/pages/testimonials.html">Our Projects</a>
+                    </li>
+                    <li class="link">
+                        <a href="/index.html#contact">Contact Us</a>
+                    </li>
+                </ul> -->
             </div>
 
             <div id="hero-container" class="hero-content">
                 <div class="about-container">
-                    <h1 class="hero-heading">
-                        Our Projects
-                    </h1>
+                    <h1 class="hero-heading" id="project-title"></h1>
                     <h2 class="hero-title">
-                        At PMS Architects, We Design Future
+                        Re-imagined by PMS Architects
                     </h2>
                 </div>
 
@@ -62,40 +79,4 @@
 
         </div>
     </header>
-
-    <section>
-        <h2 class="section-header">Some of Our Clients</h2>
-
-        <!-- Display All Projects Main Image here. Upon clicking on it, navigate to next page. -->
-        <div id="all-projects"></div> 
-
-        <!-- Modal for Image Preview -->
-        <div id="image-modal" class="modal">
-            <span class="close" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
-                <div class="modal-caption" id="caption"></div>
-                <img class="img-100" id="modal-image" />
-            </div>
-
-        </div>
-
-        <script src="../js/all-projects.js"></script>
-    </section>
-
-    <footer>
-        <div class="flex-center">
-            <div class="flex-col-center">
-                <div>Copyright
-                    <script>document.write(new Date().getFullYear());</script> © PMS Architects
-                </div>
-                <div>Designed & Developed with ❤️ by PMS Architects 👷🏻‍♂️</div>
-            </div>
-            <div id="caption"></div>
-            <img id="modal-image">
-        </div>
-    </footer>
-
 </body>
-
-</html>
